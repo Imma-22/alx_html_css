@@ -6,30 +6,39 @@ body {
     overflow-y: scroll;
   }
 
-  header, footer {
-    background-color: #ccc; /* Example styling */
-    padding: 10px;
-    text-align: center;
-  }
+header {
+  background-color: #343a40;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+} 
 
   main {
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
+    flex: auto;
   }
 
   article {
     flex: 2;
-    background-color: #f0f0f0; /* Example styling */
+    background-color: #f8f9fa;
     padding: 10px;
+    overflow-y: auto
   }
 
   aside {
     flex: 1;
-    background-color: #e0e0e0; /* Example styling */
+    background-color: #e9ecef;
     padding: 10px;
+    overflow-y: auto
   }
 
-  footer {
-    background-color: #ccc;
-  }
+    footer {
+    background: #f8f9fa;
+    padding: 10px;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadows */
+}
+
+  
