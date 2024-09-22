@@ -1,2 +1,2 @@
-![Project Screenshot](./images/logp.png)
+![Project Screenshot](css_advanced/images/logp.png)
 Happy viewing.
