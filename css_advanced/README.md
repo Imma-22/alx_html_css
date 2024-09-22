@@ -1,2 +1,2 @@
 ![Project Screenshot](./images/7.png)
-Happy viewing.
+This file contains visual for the website.
