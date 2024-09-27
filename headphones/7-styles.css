@@ -1,0 +1,29 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+  color: #100202;
+}
+
+
+
+
+/* Transform Hamburger Icon to X */
+#menu-toggle:checked + .menu-icon .hamburger:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px); /* Top bar turns to '/' */
+}
+
+#menu-toggle:checked + .menu-icon .hamburger:nth-child(2) {
+    opacity: 0; /* Middle bar disappears */
+}
+
+#menu-toggle:checked + .menu-icon .hamburger:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px); /* Bottom bar turns to '\' */
+}
+
