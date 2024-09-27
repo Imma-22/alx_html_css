@@ -1,0 +1,110 @@
+
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+  color: #100202;
+}
+
+
+/* Section Styling */
+  
+.attribute-text h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    }
+    
+    .attribute-text p {
+      text-align: center;
+      
+    }
+    
+    .attribute {
+      display: flex;
+      padding-left: 100px;
+      flex-wrap: wrap;
+      
+    }
+    
+    .attribute-items {
+    text-align: center;
+    flex: 1 1 30%;
+    max-width: 300px;
+    padding: 60px;
+    padding-right: 100px;
+    justify-content: center;
+    }
+    
+    .holberton_school-icon-ic_sound,
+    .holberton_school-icon-ic_video,
+    .holberton_school-icon-ic_music,
+    .holberton_school-icon-ic_hearing {
+      font-size: 4rem;
+      color: #ff6b6b;
+      margin-bottom: 20px;
+    }
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .attribute {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .attribute-item {
+      flex: 1 1 100%; /* Each feature takes full width on small screens */
+      margin-bottom: 20px; /* Add space between features */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+}
